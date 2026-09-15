@@ -1,0 +1,60 @@
+import type { Book } from "@/types";
+
+// Source: Annexure No. 12 — List of Books.
+export const books: Book[] = [
+  {
+    id: "book-1",
+    title: "Cost Accounting",
+    role: "Co-Author",
+    audience: "For Graduate & Post Graduate level",
+    publisher: "Sahitto Kosh, 37 Bangla Bazar, Dhaka, Bangladesh",
+    year: "1999",
+    status: "Published",
+    level: "Lecturer",
+  },
+  {
+    id: "book-2",
+    title: "Business Communication",
+    role: "Author",
+    subtitle: "Text Book",
+    audience: "For BBA & MBA level",
+    year: "2023",
+    status: "Final Stage / To be Published",
+    level: "Professor",
+  },
+  {
+    id: "book-3",
+    title: "Management Accounting",
+    role: "Co-Author",
+    audience: "For BBA & MBA level",
+    year: "2023",
+    status: "Final Stage / To be Published",
+    level: "Professor",
+  },
+  {
+    id: "book-4",
+    title: "Bank Management",
+    role: "Author",
+    subtitle: "Text Book",
+    audience: "For BBA & MBA level",
+    year: "2023",
+    status: "Final Stage / To be Published",
+    level: "Professor",
+  },
+  {
+    id: "book-5",
+    title: "Innovation, Leadership and Governance in Higher Education",
+    role: "Co-Author",
+    subtitle: "Perspectives on the Covid-19 Recovery Strategies",
+    publisher: "Springer Nature Singapore Pte Ltd.",
+    publisherAddress: "152 Beach Road, #21-01/04 Gateway East, Singapore 189721, Singapore",
+    editor: "Parves Sultan (Australian Consultant for Capacity Building, Melbourne, Australia)",
+    isbn: ["978-981-19-7298-0 (print)", "978-981-19-7299-7 (eBook)"],
+    chapter:
+      "Chapter 10: Perceived Readiness and Factors Influencing the Adoption of Online Learning Management Systems: The Case of Rajshahi University, Bangladesh",
+    chapterPages: "171–196",
+    year: "March 2023",
+    status: "Published",
+    level: "Professor",
+  },
+];
