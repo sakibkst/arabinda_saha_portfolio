@@ -23,7 +23,7 @@ export default function ArchivePage() {
         description="An index to the professor's supporting academic documents. The full, unabridged CV — including detailed correspondence for every thesis evaluation — is available as a single download below."
       >
         <Link
-          href="/documents/professor-cv.pdf"
+          href="/public/documents/professor-cv.pdf"
           className="mt-8 inline-flex items-center gap-2 rounded-md bg-gold px-5 py-3 text-sm font-semibold text-navy-deep transition hover:bg-gold-soft"
         >
           <Download className="h-4 w-4" />
