@@ -110,10 +110,7 @@ export default function AboutPage() {
                 </div>
               </div>
             </Card>
-            <p className="mt-3 text-xs text-foreground-muted">
-              Note: certain sensitive personal identifiers present in the source CV (national/smart-card
-              number, blood group) are intentionally withheld from this public page.
-            </p>
+           
           </section>
         </div>
 
