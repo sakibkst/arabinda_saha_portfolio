@@ -3,6 +3,7 @@ import { Mail, Phone, MapPin, Globe, Download } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
+import { LeafletMap } from "@/components/ui/LeafletMap";
 import { professor } from "@/data/professor";
 import { buildMetadata } from "@/lib/seo";
 
@@ -78,16 +79,13 @@ export default function ContactPage() {
           </a>
         </Card>
 
-        <Card className="flex items-center justify-center p-8">
-          <div className="text-center text-sm text-foreground-muted">
-            <MapPin className="mx-auto mb-3 h-8 w-8 text-gold" />
-            <p className="font-medium text-navy">Islamic University</p>
-            <p>Kushtia-7003, Bangladesh</p>
-            <p className="mt-4 text-xs">
-              A live map embed is intentionally omitted to avoid third-party tracking on this
-              academic profile; please use the postal address above for correspondence.
-            </p>
-          </div>
+        <Card className="overflow-hidden p-0">
+          <LeafletMap
+            lat={professor.campusCoordinates.lat}
+            lng={professor.campusCoordinates.lng}
+            label={`${professor.university}, ${professor.universityLocation}`}
+            className="h-full min-h-[320px] w-full"
+          />
         </Card>
       </Container>
     </>

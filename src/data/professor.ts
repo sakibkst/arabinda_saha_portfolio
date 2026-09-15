@@ -27,6 +27,9 @@ export const professor = {
     mobiles: ["+88-01711-575073", "+88-01916-507015", "+88-01876771000"],
   },
 
+  // Islamic University campus, Kushtia — used for the contact page map marker.
+  campusCoordinates: { lat: 23.7229, lng: 89.1493 },
+
   permanentAddress: {
     village: "Amlapara, Kushtia",
     postOffice: "Kushtia",
