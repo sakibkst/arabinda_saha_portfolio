@@ -6,7 +6,7 @@
 export const professor = {
   name: "Professor Dr. Arabinda Saha",
   shortName: "Dr. Arabinda Saha",
-  status: "Professor (Grade 1)",
+  status: "Professor",
   department: "Department of Accounting & Information Systems",
   faculty: "Faculty of Business Administration",
   university: "Islamic University",
